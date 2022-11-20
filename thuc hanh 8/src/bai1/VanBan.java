@@ -1,5 +1,6 @@
 package bai1;
 
+import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class VanBan {
@@ -27,6 +28,9 @@ public class VanBan {
         return count;
 
 
+    }
+    public String prinnnt(){
+        return str.toString();
     }
     public void ChuanHoa(){
         this.str=str.replaceAll("\s+", " ");

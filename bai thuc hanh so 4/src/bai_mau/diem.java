@@ -1,3 +1,5 @@
+package bai_mau;
+
 import java.util.Scanner;
 
 public class diem {
