@@ -2,7 +2,7 @@ package bai1;
 
 import java.util.Scanner;
 public class quanLicanbo {
-    canBo[] cb2=null;
+
     Scanner sc = new Scanner(System.in);
 
     public quanLicanbo() {
@@ -26,7 +26,7 @@ public class quanLicanbo {
 
             System.out.println("--" + cb1.getHoTen() + ",  " + cb1.getNamSinh() + ",  " + cb1.getGioiTinh() + ",  " + cb1.getDiaChi());
         }
-        cb2=mang;
+
     }
 
     public void timtheoten(canBo[] mang){
