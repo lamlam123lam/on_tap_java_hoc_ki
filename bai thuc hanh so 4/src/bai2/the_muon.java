@@ -13,4 +13,43 @@ public class the_muon {
         this.sv = sv;
     }
 
+    public String getSoPhieuMuon() {
+        return SoPhieuMuon;
+    }
+
+    public void setSoPhieuMuon(String soPhieuMuon) {
+        SoPhieuMuon = soPhieuMuon;
+    }
+
+    public String getSoHieuSach() {
+        return SoHieuSach;
+    }
+
+    public void setSoHieuSach(String soHieuSach) {
+        SoHieuSach = soHieuSach;
+    }
+
+    public Ngay_thang_nam getNgayMuon() {
+        return NgayMuon;
+    }
+
+    public void setNgayMuon(Ngay_thang_nam ngayMuon) {
+        NgayMuon = ngayMuon;
+    }
+
+    public Ngay_thang_nam getNgayTra() {
+        return NgayTra;
+    }
+
+    public void setNgayTra(Ngay_thang_nam ngayTra) {
+        NgayTra = ngayTra;
+    }
+
+    public Sinh_Zien getSv() {
+        return sv;
+    }
+
+    public void setSv(Sinh_Zien sv) {
+        this.sv = sv;
+    }
 }
